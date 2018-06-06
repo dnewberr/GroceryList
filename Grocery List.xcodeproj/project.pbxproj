@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		CD48FF7F20C788F800F88846 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD48FF7E20C788F800F88846 /* AppDelegate.swift */; };
-		CD48FF8120C788F800F88846 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD48FF8020C788F800F88846 /* ViewController.swift */; };
 		CD48FF8420C788F800F88846 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD48FF8220C788F800F88846 /* Main.storyboard */; };
 		CD48FF8720C788F800F88846 /* Grocery_List.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD48FF8520C788F800F88846 /* Grocery_List.xcdatamodeld */; };
 		CD48FF8920C788F900F88846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD48FF8820C788F900F88846 /* Assets.xcassets */; };
 		CD48FF8C20C788F900F88846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD48FF8A20C788F900F88846 /* LaunchScreen.storyboard */; };
+		CD48FF9E20C79D6300F88846 /* GroceryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD48FF9D20C79D6300F88846 /* GroceryListTableViewController.swift */; };
+		CD48FFA120C79DAF00F88846 /* Grocery+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD48FF9F20C79DAF00F88846 /* Grocery+CoreDataClass.swift */; };
+		CD48FFA220C79DAF00F88846 /* Grocery+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD48FFA020C79DAF00F88846 /* Grocery+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CD48FF7B20C788F800F88846 /* Grocery List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grocery List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD48FF7E20C788F800F88846 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CD48FF8020C788F800F88846 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CD48FF8320C788F800F88846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD48FF8620C788F800F88846 /* Grocery_List.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Grocery_List.xcdatamodel; sourceTree = "<group>"; };
 		CD48FF8820C788F900F88846 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD48FF8B20C788F900F88846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD48FF8D20C788F900F88846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD48FF9D20C79D6300F88846 /* GroceryListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListTableViewController.swift; sourceTree = "<group>"; };
+		CD48FF9F20C79DAF00F88846 /* Grocery+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Grocery+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CD48FFA020C79DAF00F88846 /* Grocery+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Grocery+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		CD48FF7220C788F800F88846 = {
 			isa = PBXGroup;
 			children = (
+				CD48FF9F20C79DAF00F88846 /* Grocery+CoreDataClass.swift */,
+				CD48FFA020C79DAF00F88846 /* Grocery+CoreDataProperties.swift */,
 				CD48FF7D20C788F800F88846 /* Grocery List */,
 				CD48FF7C20C788F800F88846 /* Products */,
 			);
@@ -57,8 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				CD48FF7E20C788F800F88846 /* AppDelegate.swift */,
-				CD48FF8020C788F800F88846 /* ViewController.swift */,
 				CD48FF8220C788F800F88846 /* Main.storyboard */,
+				CD48FF9D20C79D6300F88846 /* GroceryListTableViewController.swift */,
 				CD48FF8820C788F900F88846 /* Assets.xcassets */,
 				CD48FF8A20C788F900F88846 /* LaunchScreen.storyboard */,
 				CD48FF8D20C788F900F88846 /* Info.plist */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD48FF8120C788F800F88846 /* ViewController.swift in Sources */,
 				CD48FF7F20C788F800F88846 /* AppDelegate.swift in Sources */,
+				CD48FFA120C79DAF00F88846 /* Grocery+CoreDataClass.swift in Sources */,
+				CD48FF9E20C79D6300F88846 /* GroceryListTableViewController.swift in Sources */,
+				CD48FFA220C79DAF00F88846 /* Grocery+CoreDataProperties.swift in Sources */,
 				CD48FF8720C788F800F88846 /* Grocery_List.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
